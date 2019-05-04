@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+//import org.apache.http.client.HttpClient;
 
 public class MainActivity extends AppCompatActivity {
     private Button button;
@@ -13,6 +14,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //OkHttpClient client = new OkHttpClient();//añadi esto y las lineas de abajo, hasta button no se que
+        //String url = "http://192.168.137.149/cgi-bin/test.py?input_parameter_1=123";
 
         button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
@@ -21,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
                 openPantalla2();
             }
         });
+
         button = (Button) findViewById(R.id.button2);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -66,6 +70,5 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent (this, Pantalla5.class);
         startActivity(intent);
     }
-
 
 }
