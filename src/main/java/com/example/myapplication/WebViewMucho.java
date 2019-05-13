@@ -14,7 +14,7 @@ public class WebViewMucho extends Activity {
 
         webView3 = (WebView) findViewById(R.id.webView);
         webView3.getSettings().setJavaScriptEnabled(true);
-        webView3.loadUrl("http://laspaginasverdes.com/login/");
+        webView3.loadUrl("http://192.168.137.149/cgi-bin/compuertas3.py");
         //http://192.168.137.149/cgi-bin/test.py?input_parameter_1=123
     }
 

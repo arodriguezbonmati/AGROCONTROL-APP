@@ -18,7 +18,6 @@
         <activity android:name=".WebView2Horas" />
         <activity android:name=".WebView1Hora" />
         <activity android:name=".WebViewSuministros" />
-        <activity android:name=".WebViewVerBebederos" />
         <activity android:name=".WebViewVerComederos" />
         <activity android:name=".WebViewMucho" />
         <activity android:name=".WebViewMedio" />

@@ -14,7 +14,7 @@ public class WebViewPoco extends Activity {
 
         webView1 = (WebView) findViewById(R.id.webView);
         webView1.getSettings().setJavaScriptEnabled(true);
-        webView1.loadUrl("http://laspaginasverdes.com/login/");
+        webView1.loadUrl("http://192.168.137.149/cgi-bin/compuertas.py");
         //http://192.168.137.149/cgi-bin/test.py?input_parameter_1=123
     }
 

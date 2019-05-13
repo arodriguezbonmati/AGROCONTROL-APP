@@ -14,7 +14,7 @@ public class WebView3Horas extends Activity {
 
         webView23 = (WebView) findViewById(R.id.webView);
         webView23.getSettings().setJavaScriptEnabled(true);
-        webView23.loadUrl("http://laspaginasverdes.com/login/");
+        webView23.loadUrl("http://192.168.137.149/cgi-bin/timercompuertas3.py");
         //http://192.168.137.149/cgi-bin/test.py?input_parameter_1=123
         //
     }

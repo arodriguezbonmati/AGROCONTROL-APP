@@ -14,7 +14,7 @@ public class WebViewMedio extends Activity {
 
         webView2 = (WebView) findViewById(R.id.webView);
         webView2.getSettings().setJavaScriptEnabled(true);
-        webView2.loadUrl("http://www.totaljerkface.com/happy_wheels.tjf");
+        webView2.loadUrl("http://192.168.137.149/cgi-bin/compuertas2.py");
         //http://192.168.137.149/cgi-bin/test.py?input_parameter_1=123
         //
     }

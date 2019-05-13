@@ -30,19 +30,6 @@ public class Pantalla2 extends Activity {
             }
 
         });
-        Button button6;
-        final Context context2 = this;
 
-        button6 = findViewById(R.id.button9);
-
-        button6.setOnClickListener(new OnClickListener() {
-
-            @Override
-            public void onClick(View arg0) {
-                Intent intent2 = new Intent(context2, WebViewVerBebederos.class);
-                startActivity(intent2);
-            }
-
-        });
     }
 }

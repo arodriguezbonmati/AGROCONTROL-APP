@@ -14,7 +14,7 @@ public class WebViewVerComederos extends Activity {
 
         webView4 = (WebView) findViewById(R.id.webView);
         webView4.getSettings().setJavaScriptEnabled(true);
-        webView4.loadUrl("http://www.totaljerkface.com/happy_wheels.tjf");
+        webView4.loadUrl("http://192.168.137.149/cgi-bin/consultacomederos.py");
         //http://192.168.137.149/cgi-bin/test.py?input_parameter_1=123
     }
 

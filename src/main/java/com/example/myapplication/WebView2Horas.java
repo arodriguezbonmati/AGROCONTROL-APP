@@ -14,7 +14,7 @@ public class WebView2Horas extends Activity {
 
         webView22 = (WebView) findViewById(R.id.webView);
         webView22.getSettings().setJavaScriptEnabled(true);
-        webView22.loadUrl("http://www.totaljerkface.com/happy_wheels.tjf");
+        webView22.loadUrl("http://192.168.137.149/cgi-bin/timercompuertas2.py");
         //http://192.168.137.149/cgi-bin/test.py?input_parameter_1=123
         //
     }
